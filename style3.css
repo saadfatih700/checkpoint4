@@ -1,0 +1,193 @@
+nav, #box1, #box, #lien{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#imageacceuil{
+    width: 200px;
+    height: 70px;
+}
+
+ul li {
+    display:inline;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+}
+#entete2{
+    color: rgb(118, 211, 180);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#textes{
+    display: flex;
+
+}
+h2{
+    font-size: medium;
+    color: gray;
+    line-height: 25px;
+    font-style:normal;
+}
+
+h3{
+    font-size: medium;
+    color: gray;
+    line-height: 25px;
+}
+
+.Forpatients{
+    border-radius: 3%;
+    background-color:rgb(118, 211, 180) ;
+    display: inline-block;
+    height: 296px;
+    width: 250px;
+}
+h4{
+    margin: 20px;
+    color: white;
+    font-size: x-large;
+    font-weight:unset ;
+}
+p{
+    margin: 20px;
+    font-size: x-large;
+    color: white;
+    font-weight:unset ;
+
+}
+h6{
+    margin: 20px;
+    font-size:large ;
+    font-style: italic;
+    color: white;
+    font-weight:unset ;
+
+}
+.Fordoctors{
+    border-radius: 3%;
+    background-color:rgb(40, 71, 250) ;
+    display: inline-block;
+    height: 296px;
+    width: 250px;
+}
+.Forclinics{
+    border-radius: 3%;
+    background-color:rgb(36, 47, 109) ;
+    display: inline-block;
+    height: 296px;
+    width: 250px;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    color:rgb(118, 211, 180) ;
+    font-size:x-large;
+    font-weight: unset;
+}
+.liens img,.liens p{
+    display: inline-block;
+    color: gray;
+
+}
+.liens p{
+height: 20px;
+}
+
+#globalcompany{
+    display: flex;
+}
+
+.offices {
+    background-color: rgb(108, 204, 172);
+    font-size: x-large;
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: repeat(20,5%);
+    grid-template-rows: repeat(20,5%);
+    height: 700px;
+}
+.offices p{
+    color: green;
+    padding-right: 40%;
+}
+
+.offices h3{
+    color: gray;
+    grid-column: 2;
+    grid-row: 7;
+
+}
+
+#leader{
+    color: white;
+    margin-right: 80%;
+}
+#carre1{
+    
+    background-color: white;
+    border-radius: 3%;
+    padding: 2%;
+    display: block;
+    height: 200px;
+    width: 300px;
+    font: 1em sans-serif;
+    font-size: 25px;
+    grid-column: 10;
+    grid-row: 2;
+}
+
+
+#carre2{
+    
+    background-color: white;
+    border-radius: 3%;
+    padding: 2%;
+    display: block;
+    height: 200px;
+    width: 300px;
+    font: 1em sans-serif;
+    font-size: 25px;
+    grid-column: 15;
+    grid-row: 3;
+}
+
+#carre3{
+    
+    background-color: white;
+    border-radius: 3%;
+    padding: 2%;
+    display: block;
+    height: 200px;
+    width: 300px;
+    font: 1em sans-serif;
+    font-size: 25px;
+    grid-column: 10;
+    grid-row: 10;
+}
+
+#carre4{
+    background-color: white;
+    border-radius: 3%;
+    padding: 2%;
+    display: block;
+    height: 200px;
+    width: 300px;
+    font: 1em sans-serif;
+    font-size: 25px;
+    grid-column: 15;
+    grid-row: 11;
+}
+
+#titre h2,#titre h1{
+margin-right: 35%;
+margin-left: 35%;
+}
